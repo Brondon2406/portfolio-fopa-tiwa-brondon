@@ -1,7 +1,3 @@
-Exact ! Merci de le rappeler. Voici un exemple de `README.md` propre et clair pour ton projet **portfolio-fopa-tiwa-brondon**, adapté à ta structure et à ton déploiement sur **Render**.
-
----
-
 ## 🎨 Portfolio Fopa Tiwa Brondon
 
 Un portfolio personnel dynamique développé avec **TypeScript**, **Express.js** et une architecture en trois parties : **Admin**, **Client** et **Serveur (API)**. Le but est d’afficher et de modifier dynamiquement les données du portfolio.
