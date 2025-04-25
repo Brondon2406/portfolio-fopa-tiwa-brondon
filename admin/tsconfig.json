@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "module": "es2020",
-    "outDir": "./dist",
+    "outDir": "../dist/admin",
     "strict": true
   },
   "include": [
