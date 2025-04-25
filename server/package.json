@@ -2,9 +2,9 @@
   "name": "portfolio-dynamique",
   "version": "1.0.0",
   "scripts": {
-    "start": "node dist/server/index.js",  // Lance le serveur backend
-    "build": "tsc -p client/tsconfig.json && tsc -p server/tsconfig.json", // Compile le frontend et backend
-    "dev": "tsc --watch & nodemon dist/server/index.js"  // Mode de développement avec surveillance des fichiers
+    "start": "node dist/server/index.js",
+    "build": "tsc -p client/tsconfig.json && tsc -p server/tsconfig.json",
+    "dev": "tsc --watch & nodemon dist/server/index.js"
   },
   "dependencies": {
     "express": "^4.17.1",
