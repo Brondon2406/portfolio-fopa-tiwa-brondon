@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node dist/server/index.js",
-    "build": "tsc -p ./client/tsconfig.json && tsc -p ./server/tsconfig.json && tsc -p ./admin/tsconfig.json",
+    "build": "tsc -p ./client && tsc -p ./server && tsc -p ./admin",
     "dev": "tsc --watch & nodemon dist/server/index.js"
   },
   "dependencies": {
