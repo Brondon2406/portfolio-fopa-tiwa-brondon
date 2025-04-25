@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Portfolio</h1>
+    <form id="profileForm">
+      <label>Nom complet : <input type="text" id="name" required /></label>
+      <label>Titre : <input type="text" id="title" /></label>
+      <label>Bio : <textarea id="bio"></textarea></label>
+      
+      <label>Compétences (séparées par ,) : <input type="text" id="skills" /></label>
+      
+      <h3>Projet</h3>
+      <label>Nom : <input type="text" id="projectName" /></label>
+      <label>Description : <textarea id="projectDescription"></textarea></label>
+      <label>Lien : <input type="url" id="projectLink" /></label>
+
+      <h3>Contact</h3>
+      <label>Email : <input type="email" id="email" /></label>
+      <label>LinkedIn : <input type="url" id="linkedin" /></label>
+      <label>GitHub : <input type="url" id="github" /></label>
+
+      <button type="submit">Enregistrer</button>
+    </form>
+    <p id="message"></p>
+  </div>
+  <script type="module" src="admin.js"></script>
+</body>
+</html>
