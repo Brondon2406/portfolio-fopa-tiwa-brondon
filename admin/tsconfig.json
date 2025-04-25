@@ -2,8 +2,10 @@
   "compilerOptions": {
     "target": "es6",
     "module": "es2020",
-    "outDir": "./dist/admin",
+    "outDir": "./dist",
     "strict": true
   },
-  "include": ["main.ts"]
+  "include": [
+    "admin.ts"
+  ]
 }
